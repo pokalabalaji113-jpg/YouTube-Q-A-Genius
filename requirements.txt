@@ -1,0 +1,33 @@
+# ─── Core ─────────────────────────────────────────────────────────────────────
+streamlit>=1.40.0
+
+# ─── LangChain ────────────────────────────────────────────────────────────────
+langchain>=0.3.0
+langchain-community>=0.3.0
+langchain-openai>=0.2.0
+langchain-groq>=0.2.0
+
+# ─── Vector DB (FAISS - no C++ compiler needed, works on Windows out of the box)
+faiss-cpu>=1.8.0
+
+# ─── LLM Providers ────────────────────────────────────────────────────────────
+openai>=1.50.0
+groq>=0.11.0
+
+# ─── Embeddings ───────────────────────────────────────────────────────────────
+sentence-transformers>=3.0.0
+
+# ─── YouTube ──────────────────────────────────────────────────────────────────
+youtube-transcript-api>=0.6.3
+pytubefix>=7.0.0
+
+# ─── PDF ──────────────────────────────────────────────────────────────────────
+fpdf2>=2.8.0
+
+# ─── Utilities ────────────────────────────────────────────────────────────────
+python-dotenv>=1.0.1
+tiktoken>=0.7.0
+requests>=2.32.3
+Pillow>=10.4.0
+plotly>=5.22.0
+streamlit-extras>=0.4.7
